@@ -1,0 +1,83 @@
+body{
+  margin: 0;
+  padding: 0;
+  background:  #809fff
+}
+header{
+  text-align: center;
+  background: url(bcheat.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  position: relative;
+    border: 2px dashed red;
+}
+header img{
+  width: 400px;
+  position: absolute;
+  top: 15%;
+  transform: translateX(-50%);
+}
+nav{
+  text-align: center;
+  background-color: gray;
+  margin: 0;
+  font-size: 20px;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 16px;
+}
+a:hover{
+  background:hsl(360, 100%, 90%,0.2);
+  border-radius: 20px;
+}
+.mid .subject img{
+  width: 300px;
+  height: 200px;
+}
+.subject{
+  text-align: center;
+  border: 3px solid red;
+  width:300px;
+  margin: 10px;
+}
+.mid{
+display:flex;
+flex-direction: row;
+}
+.ab{
+  background:hsl(360, 100%, 90%,0.2);
+  border-radius: 20px;
+}
+.me{
+ position: absolute;
+ left: 50%;
+ transform:translateX(-50%);
+}
+.dis{
+  box-shadow: 0 0 10px red;
+  border-radius: 20px;
+  width: 700px;
+  height: 400px;
+}
+.dis h1{
+  text-align: center;
+  text-transform: capitalize;
+  color: red;
+  text-decoration: underline;
+}
+.dis p{
+  text-indent: 50px;
+  font-size: 20px;
+}
+.dis:hover{
+  box-shadow: 0 0 80px red;
+}
